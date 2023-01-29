@@ -1,4 +1,4 @@
-import "./01-primitives";
+import "./01-generic-fns";
 // import "./02-arrays";
 // import "./03-types";
 // import "./04-interfaces";
