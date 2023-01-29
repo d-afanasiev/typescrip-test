@@ -55,6 +55,7 @@ interface IAddFn {
   interface IPizza {
     size: PizzaSize.Small | PizzaSize.Medium | PizzaSize.Large;
     toppings: string[];
+    // logSize?: () => void; 
     logSize?(): void;
     getSize(): string;
     addTopping(topping: string): void;
